@@ -1,0 +1,182 @@
+
+[2026-11-02T18:22:19.168687348] [1mRunning DCP TCK v2025.1[0m
+
+
+[2026-11-02T18:22:25.394756051] Started: 6.2 Endpoint Discovery
+[2026-11-02T18:22:27.594843223] SUCCESSFUL: 6.2 Endpoint Discovery
+
+
+[2026-11-02T18:22:27.623600261] Started: 6.5.2 IssuerService should deliver verifiable credentials that verify against the issuer's signing key
+[2026-11-02T18:22:30.601145996] SUCCESSFUL: 6.5.2 IssuerService should deliver verifiable credentials that verify against the issuer's signing key
+
+
+[2026-11-02T18:22:30.606221321] Started: 6.1 IssuerService should echo the holder's access token in the delivery token
+[2026-11-02T18:22:31.272554075] SUCCESSFUL: 6.1 IssuerService should echo the holder's access token in the delivery token
+
+
+[2026-11-02T18:22:31.2751871] Started: 4.3 IssuerService should sign the credential delivery with a valid self-issued token
+[2026-11-02T18:22:31.923441149] SUCCESSFUL: 4.3 IssuerService should sign the credential delivery with a valid self-issued token
+
+
+[2026-11-02T18:22:31.926830189] Started: 6.5.1 IssuerService should deliver all requested credentials in a single CredentialMessage
+[2026-11-02T18:22:32.531765177] SUCCESSFUL: 6.5.1 IssuerService should deliver all requested credentials in a single CredentialMessage
+
+
+[2026-11-02T18:22:32.535230658] Started: 6.5.1 IssuerService should deliver a well-formed CredentialMessage correlated with the request
+[2026-11-02T18:22:33.152817116] SUCCESSFUL: 6.5.1 IssuerService should deliver a well-formed CredentialMessage correlated with the request
+
+
+[2026-11-02T18:22:33.165664343] Started: 6.4.12 IssuerService should reject a CredentialRequest with a missing holderPid
+[2026-11-02T18:22:33.307695673] SUCCESSFUL: 6.4.12 IssuerService should reject a CredentialRequest with a missing holderPid
+
+
+[2026-11-02T18:22:33.31128574] Started: 4.3.3 IssuerService should reject a CredentialRequest - kid resolves to no verification method
+[2026-11-02T18:22:33.45034921] SUCCESSFUL: 4.3.3 IssuerService should reject a CredentialRequest - kid resolves to no verification method
+
+
+[2026-11-02T18:22:33.452719401] Started: 6.4.5 IssuerService should reject a CredentialRequest with an invalid token - wrong signature
+[2026-11-02T18:22:33.581080333] SUCCESSFUL: 6.4.5 IssuerService should reject a CredentialRequest with an invalid token - wrong signature
+
+
+[2026-11-02T18:22:33.584196083] Started: 6.4.6 IssuerService should reject a CredentialRequest with an invalid token - expired
+[2026-11-02T18:22:33.708906073] SUCCESSFUL: 6.4.6 IssuerService should reject a CredentialRequest with an invalid token - expired
+
+
+[2026-11-02T18:22:33.713145453] Started: 6.4.1 IssuerService should reject a CredentialRequest with an empty credentials array
+[2026-11-02T18:22:33.99590915] SUCCESSFUL: 6.4.1 IssuerService should reject a CredentialRequest with an empty credentials array
+
+
+[2026-11-02T18:22:34.001376677] Started: 6.4.4 IssuerService should reject a CredentialRequest with an invalid body
+[2026-11-02T18:22:34.124484292] SUCCESSFUL: 6.4.4 IssuerService should reject a CredentialRequest with an invalid body
+
+
+[2026-11-02T18:22:34.130899581] Started: 4.3.3 IssuerService should reject a CredentialRequest - sub DID is not resolvable
+[2026-11-02T18:22:34.27008335] SUCCESSFUL: 4.3.3 IssuerService should reject a CredentialRequest - sub DID is not resolvable
+
+
+[2026-11-02T18:22:34.274415794] Started: 6.4.9 IssuerService should reject a CredentialRequest with an invalid token - incorrect aud
+[2026-11-02T18:22:34.391292639] SUCCESSFUL: 6.4.9 IssuerService should reject a CredentialRequest with an invalid token - incorrect aud
+
+
+[2026-11-02T18:22:34.393312126] Started: 6.4.1 IssuerService should not issue twice for a repeated holderPid
+[2026-11-02T18:22:35.069385761] SUCCESSFUL: 6.4.1 IssuerService should not issue twice for a repeated holderPid
+
+
+[2026-11-02T18:22:35.072464059] Started: 6.4.2 IssuerService should reject a CredentialRequest without an Authorization header
+[2026-11-02T18:22:35.202440061] SUCCESSFUL: 6.4.2 IssuerService should reject a CredentialRequest without an Authorization header
+
+
+[2026-11-02T18:22:35.206321004] Started: 6.4.7 IssuerService should reject a CredentialRequest with an invalid token - iat in future
+[2026-11-02T18:22:35.358492288] SUCCESSFUL: 6.4.7 IssuerService should reject a CredentialRequest with an invalid token - iat in future
+
+
+[2026-11-02T18:22:35.361976639] Started: 6.4.1 IssuerService should accept a CredentialRequest
+[2026-11-02T18:22:45.54810517] FAILED: 6.4.1 IssuerService should accept a CredentialRequest
+
+
+[2026-11-02T18:22:45.551657791] Started: 6.4.11 IssuerService should reject a CredentialRequest with an invalid token - jti already used
+[2026-11-02T18:22:45.699605497] SUCCESSFUL: 6.4.11 IssuerService should reject a CredentialRequest with an invalid token - jti already used
+
+
+[2026-11-02T18:22:45.705545635] Started: 6.4.1 IssuerService must not silently accept a request for an unsupported credential
+[2026-11-02T18:22:45.841792651] SUCCESSFUL: 6.4.1 IssuerService must not silently accept a request for an unsupported credential
+
+
+[2026-11-02T18:22:45.845967033] Started: 6.4.3 IssuerService should reject a CredentialRequest where the auth header does not have a Bearer prefix
+[2026-11-02T18:22:45.965101972] SUCCESSFUL: 6.4.3 IssuerService should reject a CredentialRequest where the auth header does not have a Bearer prefix
+
+
+[2026-11-02T18:22:45.969785595] Started: 6.4.8 IssuerService should reject a CredentialRequest with an invalid token - nbf in future
+[2026-11-02T18:22:46.107935627] SUCCESSFUL: 6.4.8 IssuerService should reject a CredentialRequest with an invalid token - nbf in future
+
+
+[2026-11-02T18:22:46.116255874] Started: 6.4.10 IssuerService should reject a CredentialRequest with an invalid token - iss != sub
+[2026-11-02T18:22:46.670174087] SUCCESSFUL: 6.4.10 IssuerService should reject a CredentialRequest with an invalid token - iss != sub
+
+
+[2026-11-02T18:22:46.754032644] Started: 6.7.1 Verify each CredentialObject is fully populated
+[2026-11-02T18:22:46.97204706] SUCCESSFUL: 6.7.1 Verify each CredentialObject is fully populated
+
+
+[2026-11-02T18:22:46.982182917] Started: 6.7 Verify CredentialObject ids are stable across metadata requests
+[2026-11-02T18:22:47.122087501] SUCCESSFUL: 6.7 Verify CredentialObject ids are stable across metadata requests
+
+
+[2026-11-02T18:22:47.125562655] Started: 6.7 Verify correct Issuer Metadata
+[2026-11-02T18:22:47.188903101] SUCCESSFUL: 6.7 Verify correct Issuer Metadata
+
+
+[2026-11-02T18:22:47.195839734] Started: 4.3.3 IssuerService should reject a status request - sub DID is not resolvable
+[2026-11-02T18:22:47.393463747] SUCCESSFUL: 4.3.3 IssuerService should reject a status request - sub DID is not resolvable
+
+
+[2026-11-02T18:22:47.395603483] Started: 6.8.1 IssuerService should respond with a status message
+[2026-11-02T18:22:48.578334886] SUCCESSFUL: 6.8.1 IssuerService should respond with a status message
+
+
+[2026-11-02T18:22:48.582404176] Started: 6.8.1 IssuerService should only report RECEIVED, then ISSUED or REJECTED
+[2026-11-02T18:22:49.272038342] SUCCESSFUL: 6.8.1 IssuerService should only report RECEIVED, then ISSUED or REJECTED
+
+
+[2026-11-02T18:22:49.275682635] Started: 6.8.2 IssuerService should reject a CredentialRequest without an Authorization header
+[2026-11-02T18:22:49.411670842] SUCCESSFUL: 6.8.2 IssuerService should reject a CredentialRequest without an Authorization header
+
+
+[2026-11-02T18:22:49.413881216] Started: 6.8.6 IssuerService should reject a CredentialRequest with an invalid token - expired
+[2026-11-02T18:22:49.544326639] SUCCESSFUL: 6.8.6 IssuerService should reject a CredentialRequest with an invalid token - expired
+
+
+[2026-11-02T18:22:49.54938968] Started: 6.8.5 IssuerService should reject a CredentialRequest with an invalid token - wrong signature
+[2026-11-02T18:22:49.721379321] SUCCESSFUL: 6.8.5 IssuerService should reject a CredentialRequest with an invalid token - wrong signature
+
+
+[2026-11-02T18:22:49.725468936] Started: 6.8.7 IssuerService should reject a CredentialRequest with an invalid token - iat in future
+[2026-11-02T18:22:50.040811208] SUCCESSFUL: 6.8.7 IssuerService should reject a CredentialRequest with an invalid token - iat in future
+
+
+[2026-11-02T18:22:50.047312208] Started: 6.8.9 IssuerService should reject a CredentialRequest with an invalid token - incorrect aud
+[2026-11-02T18:22:50.193608548] SUCCESSFUL: 6.8.9 IssuerService should reject a CredentialRequest with an invalid token - incorrect aud
+
+
+[2026-11-02T18:22:50.196369593] Started: 6.8.11 IssuerService should reject a CredentialRequest with an invalid token - jti already used
+[2026-11-02T18:22:50.391986448] SUCCESSFUL: 6.8.11 IssuerService should reject a CredentialRequest with an invalid token - jti already used
+
+
+[2026-11-02T18:22:50.395870548] Started: 6.8.3 IssuerService should reject a CredentialRequest where the auth header does not have a Bearer prefix
+[2026-11-02T18:22:50.554963653] SUCCESSFUL: 6.8.3 IssuerService should reject a CredentialRequest where the auth header does not have a Bearer prefix
+
+
+[2026-11-02T18:22:50.563640938] Started: 6.8.10 IssuerService should reject a CredentialRequest with an invalid token - iss != sub
+[2026-11-02T18:22:50.701171852] SUCCESSFUL: 6.8.10 IssuerService should reject a CredentialRequest with an invalid token - iss != sub
+
+
+[2026-11-02T18:22:50.742598763] Started: 6.8 IssuerService should not disclose a request status to a different holder
+[2026-11-02T18:22:50.925106865] SUCCESSFUL: 6.8 IssuerService should not disclose a request status to a different holder
+
+
+[2026-11-02T18:22:50.927457438] Started: 6.8.8 IssuerService should reject a CredentialRequest with an invalid token - nbf in future
+[2026-11-02T18:22:51.146638303] SUCCESSFUL: 6.8.8 IssuerService should reject a CredentialRequest with an invalid token - nbf in future
+
+
+[2026-11-02T18:22:51.151325658] Started: 4.3.3 IssuerService should reject a status request - kid resolves to no verification method
+[2026-11-02T18:22:51.303771109] SUCCESSFUL: 4.3.3 IssuerService should reject a status request - kid resolves to no verification method
+
+
+[2026-11-02T18:22:51.308782958] Started: 6.8.12 IssuerService should respond with 4xx if the request ID is not found
+[2026-11-02T18:22:51.38512592] SUCCESSFUL: 6.8.12 IssuerService should respond with 4xx if the request ID is not found
+
+
+[2026-11-02T18:22:51.463962029] There were failing tests:
+- 6.4.1 IssuerService should accept a CredentialRequest (org.awaitility.core.ConditionTimeoutException: Assertion condition defined as a Lambda expression in org.eclipse.dataspacetck.dcp.verification.issuance.issuer.CredentialRequestTest Expected to receive a CredentialMessage within 10 seconds.)
+org.awaitility.core.ConditionTimeoutException: Assertion condition defined as a Lambda expression in org.eclipse.dataspacetck.dcp.verification.issuance.issuer.CredentialRequestTest Expected to receive a CredentialMessage within 10 seconds.
+	at org.awaitility.core.ConditionAwaiter.await(ConditionAwaiter.java:167)
+	at org.awaitility.core.AssertionCondition.await(AssertionCondition.java:119)
+	at org.awaitility.core.AssertionCondition.await(AssertionCondition.java:31)
+	at org.awaitility.core.ConditionFactory.until(ConditionFactory.java:1160)
+	at org.awaitility.core.ConditionFactory.untilAsserted(ConditionFactory.java:790)
+	at org.eclipse.dataspacetck.dcp.verification.issuance.issuer.CredentialRequestTest.is_6_4_1_credentialRequest(CredentialRequestTest.java:75)
+Caused by: java.lang.AssertionError: Expected to receive a CredentialMessage
+	at org.eclipse.dataspacetck.dcp.verification.issuance.issuer.CredentialRequestTest.lambda$is_6_4_1_credentialRequest$1(CredentialRequestTest.java:77)
+
+
+[2026-11-02T18:22:51.464672067] Test run complete

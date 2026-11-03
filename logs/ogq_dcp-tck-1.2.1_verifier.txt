@@ -1,0 +1,93 @@
+
+[2026-11-02T18:22:57.455079273] [1mRunning DCP TCK v2025.1[0m
+
+
+[2026-11-02T18:23:06.107269573] Started: 4.3.3 Verify invalid access token - nbf in future
+[2026-11-02T18:23:13.421299773] SUCCESSFUL: 4.3.3 Verify invalid access token - nbf in future
+
+
+[2026-11-02T18:23:13.432739994] Started: 4.3.3 Verify invalid access token - iss and sub different
+[2026-11-02T18:23:13.740190988] SUCCESSFUL: 4.3.3 Verify invalid access token - iss and sub different
+
+
+[2026-11-02T18:23:13.7451345] Started: 4.3.1 Verifier should reject an ID token that does not contain an access token
+[2026-11-02T18:23:14.231488559] SUCCESSFUL: 4.3.1 Verifier should reject an ID token that does not contain an access token
+
+
+[2026-11-02T18:23:14.241593846] Started: 4.3.3 Verify invalid access token - expired
+[2026-11-02T18:23:14.476325744] SUCCESSFUL: 4.3.3 Verify invalid access token - expired
+
+
+[2026-11-02T18:23:14.515683634] Started: 4.3.3 Verify invalid access token - no kid and DID document has multiple verification methods
+[2026-11-02T18:23:14.785123463] SUCCESSFUL: 4.3.3 Verify invalid access token - no kid and DID document has multiple verification methods
+
+
+[2026-11-02T18:23:14.789528668] Started: Verifier should reject an auth token without the Bearer prefix
+[2026-11-02T18:23:15.616971214] SUCCESSFUL: Verifier should reject an auth token without the Bearer prefix
+
+
+[2026-11-02T18:23:15.639928997] Started: 4.3.3 Verify invalid access token - signing key not in capabilityInvocation
+[2026-11-02T18:23:15.850576613] SUCCESSFUL: 4.3.3 Verify invalid access token - signing key not in capabilityInvocation
+
+
+[2026-11-02T18:23:15.857533413] Started: 4.3.3 Verify invalid access token - auth token bound to a different iss/sub
+[2026-11-02T18:23:16.061076279] SUCCESSFUL: 4.3.3 Verify invalid access token - auth token bound to a different iss/sub
+
+
+[2026-11-02T18:23:16.072413334] Started: 4.3.3 Verify invalid access token - jti
+[2026-11-02T18:23:16.407494556] SUCCESSFUL: 4.3.3 Verify invalid access token - jti
+
+
+[2026-11-02T18:23:16.41169566] Started: 4.3.3 Verify invalid access token - incorrect aud
+[2026-11-02T18:23:16.617140207] SUCCESSFUL: 4.3.3 Verify invalid access token - incorrect aud
+
+
+[2026-11-02T18:23:16.622007411] Started: 4.3.3 Verify invalid access token - sub does not match DID document id
+[2026-11-02T18:23:16.817901475] SUCCESSFUL: 4.3.3 Verify invalid access token - sub does not match DID document id
+
+
+[2026-11-02T18:23:16.838136018] Started: 5.4.2.2 Verifier should accept a presentation response message that contains more credentials than requested
+[2026-11-02T18:23:16.96849004] SUCCESSFUL: 5.4.2.2 Verifier should accept a presentation response message that contains more credentials than requested
+
+
+[2026-11-02T18:23:16.975255004] Started: 5.4.3.6 Verifier should reject Presentations where at least 1 credential is revoked/suspended
+[2026-11-02T18:23:17.197213428] SUCCESSFUL: 5.4.3.6 Verifier should reject Presentations where at least 1 credential is revoked/suspended
+
+
+[2026-11-02T18:23:17.201096869] Started: 5.4.2.4 Verifier should reject an a presentation where a requested credential is missing
+[2026-11-02T18:23:17.349304102] SUCCESSFUL: 5.4.2.4 Verifier should reject an a presentation where a requested credential is missing
+
+
+[2026-11-02T18:23:17.354820234] Started: X.X Verifier should reject Presentations where at least 1 credential schema is violated
+[2026-11-02T18:23:17.619183891] SUCCESSFUL: X.X Verifier should reject Presentations where at least 1 credential schema is violated
+
+
+[2026-11-02T18:23:17.623802992] Started: 5.4.3.6 Verifier should reject a credential that is not yet valid
+[2026-11-02T18:23:18.256483506] SUCCESSFUL: 5.4.3.6 Verifier should reject a credential that is not yet valid
+
+
+[2026-11-02T18:23:18.274035113] Started: Verifier should resolve the DID from the prover's ID token
+[2026-11-02T18:23:18.654253749] SUCCESSFUL: Verifier should resolve the DID from the prover's ID token
+
+
+[2026-11-02T18:23:18.674169473] Started: 5.4.2.3 Verifier should reject an empty 'presentation' array
+[2026-11-02T18:23:18.84263717] SUCCESSFUL: 5.4.2.3 Verifier should reject an empty 'presentation' array
+
+
+[2026-11-02T18:23:18.854635185] Started: 5.4.3 Verifier should reject Presentations where the holder does not match the credentialSubject.id
+[2026-11-02T18:23:18.994448009] SUCCESSFUL: 5.4.3 Verifier should reject Presentations where the holder does not match the credentialSubject.id
+
+
+[2026-11-02T18:23:19.000198489] Started: 5.4.3.7 Verifier should reject an expired credential
+[2026-11-02T18:23:19.164014765] SUCCESSFUL: 5.4.3.7 Verifier should reject an expired credential
+
+
+[2026-11-02T18:23:19.168568241] Started: 5.4.2.1 Verifier should reject a presentation response message that contains a different credential than requested
+[2026-11-02T18:23:19.401577537] SUCCESSFUL: 5.4.2.1 Verifier should reject a presentation response message that contains a different credential than requested
+
+
+[2026-11-02T18:23:19.407384184] Started: 5.1 Verifier should accept a valid PresentationResponseMessage
+[2026-11-02T18:23:19.671363115] SUCCESSFUL: 5.1 Verifier should accept a valid PresentationResponseMessage
+
+
+[2026-11-02T18:23:19.718856062] Test run complete

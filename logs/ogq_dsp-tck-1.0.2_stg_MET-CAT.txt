@@ -1,0 +1,583 @@
+
+[2026-11-02T18:18:01.887320892] [1mRunning DSP TCK v2025.1[0m
+
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+
+[2026-11-02T18:18:07.703780129] Started: TP_C:02-01: Verify transfer request, provider started, consumer terminated
+[2026-11-02T18:18:07.813240874] FAILED: TP_C:02-01
+
+
+[2026-11-02T18:18:07.816750378] Started: TP_C:02-02: Verify transfer request, provider started, consumer completed
+[2026-11-02T18:18:07.825162498] FAILED: TP_C:02-02
+
+
+[2026-11-02T18:18:07.827778931] Started: TP_C:02-03: Verify transfer request, provider started, consumer suspended, consumer terminated
+[2026-11-02T18:18:07.834999164] FAILED: TP_C:02-03
+
+
+[2026-11-02T18:18:07.867057143] Started: TP_C:02-05: Verify transfer request, consumer terminated
+[2026-11-02T18:18:07.874542593] FAILED: TP_C:02-05
+
+
+[2026-11-02T18:18:07.88459199] Started: CN_C:01-01: Verify contract request, offer received, consumer accepted, provider agreed, consumer verified, provider finalized
+[2026-11-02T18:18:07.898570601] FAILED: CN_C:01-01
+
+
+[2026-11-02T18:18:07.901417315] Started: CN_C:01-02: Verify contract request, offer received, consumer counter-offer, provider terminated
+[2026-11-02T18:18:07.907638299] FAILED: CN_C:01-02
+
+
+[2026-11-02T18:18:07.909619873] Started: CN_C:01-03: Verify contract request, offer received, consumer terminated
+[2026-11-02T18:18:07.91559861] FAILED: CN_C:01-03
+
+
+[2026-11-02T18:18:07.91809811] Started: CN_C:01-04: Verify contract request, provider agreement, consumer verified, provider finalized
+[2026-11-02T18:18:07.922738887] FAILED: CN_C:01-04
+
+
+[2026-11-02T18:18:07.929141087] Started: CN:02-01: Verify contract request, provider terminated
+[2026-11-02T18:18:07.946872823] FAILED: CN:02-01
+
+
+[2026-11-02T18:18:07.949005722] Started: CN:02-02: Verify contract request, consumer terminated
+[2026-11-02T18:18:07.955409464] FAILED: CN:02-02
+
+
+[2026-11-02T18:18:07.958870235] Started: CN:02-03: Verify contract request, provider agreement, consumer terminated
+[2026-11-02T18:18:07.965315248] FAILED: CN:02-03
+
+
+[2026-11-02T18:18:07.968259178] Started: CN:02-04: Verify contract request, offer received, consumer terminated
+[2026-11-02T18:18:07.973481162] FAILED: CN:02-04
+
+
+[2026-11-02T18:18:07.976465028] Started: CN:02-05: Verify contract request, offer received, provider terminated
+[2026-11-02T18:18:07.981486163] FAILED: CN:02-05
+
+
+[2026-11-02T18:18:07.983078167] Started: CN:02-06: Verify contract request, offer received, consumer accepted, provider terminated
+[2026-11-02T18:18:07.987453145] FAILED: CN:02-06
+
+
+[2026-11-02T18:18:07.989058947] Started: CN:02-07: Verify contract request, provider agreement, consumer verified, provider terminated
+[2026-11-02T18:18:07.994048774] FAILED: CN:02-07
+
+
+[2026-11-02T18:18:08.001484699] Started: CN:01-01: Verify contract request, offer received, consumer terminated
+[2026-11-02T18:18:08.006368348] FAILED: CN:01-01
+
+
+[2026-11-02T18:18:08.009545727] Started: CN:01-02: Verify contract request, offer received, consumer counter-offer, provider terminated
+[2026-11-02T18:18:08.01395714] FAILED: CN:01-02
+
+
+[2026-11-02T18:18:08.015686671] Started: CN:01-03: Verify contract request, offer received, consumer accepted, provider agreement, consumer verified, provider finalized
+[2026-11-02T18:18:08.019017002] FAILED: CN:01-03
+
+
+[2026-11-02T18:18:08.020952052] Started: CN:01-04: Verify contract request, provider agreement, consumer verified, provider finalized
+[2026-11-02T18:18:08.027709971] FAILED: CN:01-04
+
+
+[2026-11-02T18:18:08.033148564] Started: TP_C:01-01: Verify transfer request, provider started, provider terminated
+[2026-11-02T18:18:08.038865755] FAILED: TP_C:01-01
+
+
+[2026-11-02T18:18:08.040814729] Started: TP_C:01-02: Verify transfer request, provider started, provider completed
+[2026-11-02T18:18:08.045800387] FAILED: TP_C:01-02
+
+
+[2026-11-02T18:18:08.047464219] Started: TP_C:01-03: Verify transfer request, provider started, provider suspended, provider terminated
+[2026-11-02T18:18:08.05298231] FAILED: TP_C:01-03
+
+
+[2026-11-02T18:18:08.054735227] Started: TP_C:01-04: Verify transfer request, provider started, provider suspended, provider started, provider completed
+[2026-11-02T18:18:08.059478181] FAILED: TP_C:01-04
+
+
+[2026-11-02T18:18:08.061687285] Started: TP_C:01-05: Verify transfer request, provider terminated
+[2026-11-02T18:18:08.06595917] FAILED: TP_C:01-05
+
+
+[2026-11-02T18:18:08.069439618] Started: CN_C:03-01: Verify contract request, invalid provider finalized
+[2026-11-02T18:18:08.073316763] FAILED: CN_C:03-01
+
+
+[2026-11-02T18:18:08.075533413] Started: CN_C:03-02: Verify contract request, offer received, invalid provider agreed
+[2026-11-02T18:18:08.080810425] FAILED: CN_C:03-02
+
+
+[2026-11-02T18:18:08.083660349] Started: CN_C:03-03: Verify contract request, offer received, invalid provider finalized
+[2026-11-02T18:18:08.087886378] FAILED: CN_C:03-03
+
+
+[2026-11-02T18:18:08.089816259] Started: CN_C:03-04: Verify contract request, offer received, consumer accepted, invalid provider finalized
+[2026-11-02T18:18:08.0952516] FAILED: CN_C:03-04
+
+
+[2026-11-02T18:18:08.097442237] Started: CN_C:03-05: Verify contract request, offer received, consumer accepted, invalid provider offer
+[2026-11-02T18:18:08.100766023] FAILED: CN_C:03-05
+
+
+[2026-11-02T18:18:08.10315084] Started: CN_C:03-06: Verify contract request, offer received, consumer accepted, provider agreed, invalid provider finalized
+[2026-11-02T18:18:08.109544535] FAILED: CN_C:03-06
+
+
+[2026-11-02T18:18:08.113606773] Started: TP:02-01: Verify transfer request, provider started, consumer terminated
+[2026-11-02T18:18:08.124752343] FAILED: TP:02-01
+
+
+[2026-11-02T18:18:08.127420802] Started: TP:02-02: Verify transfer request, provider started, consumer completed
+[2026-11-02T18:18:08.132170509] FAILED: TP:02-02
+
+
+[2026-11-02T18:18:08.134383948] Started: TP:02-03: Verify transfer request, provider started, consumer suspended, consumer terminated
+[2026-11-02T18:18:08.138735206] FAILED: TP:02-03
+
+
+[2026-11-02T18:18:08.144359475] Started: TP:02-05: Verify transfer request, consumer terminated
+[2026-11-02T18:18:08.14794039] FAILED: TP:02-05
+
+
+[2026-11-02T18:18:08.151437388] Started: TP:01-01: Verify transfer request, provider started, provider terminated
+[2026-11-02T18:18:08.15448416] FAILED: TP:01-01
+
+
+[2026-11-02T18:18:08.156337545] Started: TP:01-02: Verify transfer request, provider started, provider completed
+[2026-11-02T18:18:08.159403035] FAILED: TP:01-02
+
+
+[2026-11-02T18:18:08.162334542] Started: TP:01-03: Verify transfer request, provider started, provider suspended, provider terminated
+[2026-11-02T18:18:08.165961188] FAILED: TP:01-03
+
+
+[2026-11-02T18:18:08.167567324] Started: TP:01-04: Verify transfer request, provider started, provider suspended, provider started, provider completed
+[2026-11-02T18:18:08.170984198] FAILED: TP:01-04
+
+
+[2026-11-02T18:18:08.172734906] Started: TP:01-05: Verify transfer request, provider terminated
+[2026-11-02T18:18:08.175481195] FAILED: TP:01-05
+
+
+[2026-11-02T18:18:08.178709975] Started: TP_C:03-01: Verify transfer request, provider completed
+[2026-11-02T18:18:08.18373582] FAILED: TP_C:03-01
+
+
+[2026-11-02T18:18:08.186324031] Started: TP_C:03-02: Verify transfer request, provider suspended
+[2026-11-02T18:18:08.19035492] FAILED: TP_C:03-02
+
+
+[2026-11-02T18:18:08.192737319] Started: TP_C:03-03: Verify transfer request, provider started, provider suspended, provider completed
+[2026-11-02T18:18:08.197666032] FAILED: TP_C:03-03
+
+
+[2026-11-02T18:18:08.199306727] Started: TP_C:03-04: Verify transfer request, provider started, provider terminated, provider started
+[2026-11-02T18:18:08.203665947] FAILED: TP_C:03-04
+
+
+[2026-11-02T18:18:08.205104499] Started: TP_C:03-05: Verify transfer request, provider started, provider terminated, provider suspended
+[2026-11-02T18:18:08.209049388] FAILED: TP_C:03-05
+
+
+[2026-11-02T18:18:08.210671948] Started: TP_C:03-06: Verify transfer request, provider started, provider terminated, provider completed
+[2026-11-02T18:18:08.213768621] FAILED: TP_C:03-06
+
+
+[2026-11-02T18:18:08.216609499] Started: CN_C:02-01: Verify contract request, provider terminated
+[2026-11-02T18:18:08.22000357] FAILED: CN_C:02-01
+
+
+[2026-11-02T18:18:08.221691039] Started: CN_C:02-02: Verify contract request, consumer terminated
+[2026-11-02T18:18:08.225253319] FAILED: CN_C:02-02
+
+
+[2026-11-02T18:18:08.227019993] Started: CN_C:02-03: Verify contract request, provider agreement, consumer terminated
+[2026-11-02T18:18:08.231853451] FAILED: CN_C:02-03
+
+
+[2026-11-02T18:18:08.233173652] Started: CN_C:02-04: Verify contract request, offer received, provider terminated
+[2026-11-02T18:18:08.23706122] FAILED: CN_C:02-04
+
+
+[2026-11-02T18:18:08.238725301] Started: CN_C:02-05: Verify contract request, offer received, consumer accepted, provider terminated
+[2026-11-02T18:18:08.242094027] FAILED: CN_C:02-05
+
+
+[2026-11-02T18:18:08.244465545] Started: CN_C:02-06: Verify contract request, provider agreement, consumer verified, provider terminated
+[2026-11-02T18:18:08.247721756] FAILED: CN_C:02-06
+
+
+[2026-11-02T18:18:08.253174356] Started: MET:01-01: Verify metadata request
+[2026-11-02T18:18:10.409064555] Received metadata  response
+[2026-11-02T18:18:10.726726515] SUCCESSFUL: MET:01-01
+
+
+[2026-11-02T18:18:10.954448778] Started: CN:03-01: Verify contract request, provider agreement, consumer verified, provider finalized, invalid consumer terminated
+[2026-11-02T18:18:11.092206289] FAILED: CN:03-01
+
+
+[2026-11-02T18:18:11.104610654] Started: CN:03-02: Verify contract request, offer received, invalid consumer verified
+[2026-11-02T18:18:11.119219122] FAILED: CN:03-02
+
+
+[2026-11-02T18:18:11.126154046] Started: CN:03-03: Verify contract request, offer received, consumer accepted, illegal consumer verified
+[2026-11-02T18:18:11.134861814] FAILED: CN:03-03
+
+
+[2026-11-02T18:18:11.138204693] Started: CN:03-04: Verify contract request, offer received, consumer counter-offer (x2), provider terminated
+[2026-11-02T18:18:11.145346179] FAILED: CN:03-04
+
+
+[2026-11-02T18:18:11.223738564] Started: CAT:01-01: Verify catalog request
+[2026-11-02T18:18:12.201433626] Received catalog request response
+[2026-11-02T18:18:12.337085876] SUCCESSFUL: CAT:01-01
+
+
+[2026-11-02T18:18:12.342744913] Started: CAT:01-02: Verify dataset request
+[2026-11-02T18:18:12.590233304] Received dataset request response
+[2026-11-02T18:18:12.643821251] SUCCESSFUL: CAT:01-02
+
+
+[2026-11-02T18:18:12.646348347] Started: CAT:01-03: Verify dataset request not found
+[2026-11-02T18:18:12.745667023] Received dataset request response
+[2026-11-02T18:18:12.772400592] SUCCESSFUL: CAT:01-03
+
+[2026-11-02T18:18:12.779426561] Passed tests: 4
+[2026-11-02T18:18:12.779903175] Failed tests: 55
+
+[2026-11-02T18:18:12.780166264] Failures:
+[2026-11-02T18:18:12.783189984] 
+   ■ org.eclipse.dataspacetck.dsp.verification.tp.TransferProcessConsumer02Test.tp_c_02_01
+
+[2026-11-02T18:18:12.785367447]      [TP_C:02-01: Verify transfer request, provider started, consumer terminated]
+[2026-11-02T18:18:12.786440942]      null
+
+[2026-11-02T18:18:12.786920598] 
+   ■ org.eclipse.dataspacetck.dsp.verification.tp.TransferProcessConsumer02Test.tp_c_02_02
+
+[2026-11-02T18:18:12.787195569]      [TP_C:02-02: Verify transfer request, provider started, consumer completed]
+[2026-11-02T18:18:12.787327552]      null
+
+[2026-11-02T18:18:12.787480169] 
+   ■ org.eclipse.dataspacetck.dsp.verification.tp.TransferProcessConsumer02Test.tp_c_02_03
+
+[2026-11-02T18:18:12.787621573]      [TP_C:02-03: Verify transfer request, provider started, consumer suspended, consumer terminated]
+[2026-11-02T18:18:12.787718122]      null
+
+[2026-11-02T18:18:12.78783468] 
+   ■ org.eclipse.dataspacetck.dsp.verification.tp.TransferProcessConsumer02Test.tp_c_02_05
+
+[2026-11-02T18:18:12.788011477]      [TP_C:02-05: Verify transfer request, consumer terminated]
+[2026-11-02T18:18:12.788156257]      null
+
+[2026-11-02T18:18:12.788332637] 
+   ■ org.eclipse.dataspacetck.dsp.verification.cn.ContractNegotiationConsumer01Test.cn_c_01_01
+
+[2026-11-02T18:18:12.788477084]      [CN_C:01-01: Verify contract request, offer received, consumer accepted, provider agreed, consumer verified, provider finalized]
+[2026-11-02T18:18:12.788732754]      null
+
+[2026-11-02T18:18:12.788844601] 
+   ■ org.eclipse.dataspacetck.dsp.verification.cn.ContractNegotiationConsumer01Test.cn_c_01_02
+
+[2026-11-02T18:18:12.788990091]      [CN_C:01-02: Verify contract request, offer received, consumer counter-offer, provider terminated]
+[2026-11-02T18:18:12.789348895]      null
+
+[2026-11-02T18:18:12.789694609] 
+   ■ org.eclipse.dataspacetck.dsp.verification.cn.ContractNegotiationConsumer01Test.cn_c_01_03
+
+[2026-11-02T18:18:12.790516645]      [CN_C:01-03: Verify contract request, offer received, consumer terminated]
+[2026-11-02T18:18:12.790707115]      null
+
+[2026-11-02T18:18:12.790844142] 
+   ■ org.eclipse.dataspacetck.dsp.verification.cn.ContractNegotiationConsumer01Test.cn_c_01_04
+
+[2026-11-02T18:18:12.791020522]      [CN_C:01-04: Verify contract request, provider agreement, consumer verified, provider finalized]
+[2026-11-02T18:18:12.791121656]      null
+
+[2026-11-02T18:18:12.791237797] 
+   ■ org.eclipse.dataspacetck.dsp.verification.cn.ContractNegotiationProvider02Test.cn_02_01
+
+[2026-11-02T18:18:12.791406715]      [CN:02-01: Verify contract request, provider terminated]
+[2026-11-02T18:18:12.791506348]      null
+
+[2026-11-02T18:18:12.791634412] 
+   ■ org.eclipse.dataspacetck.dsp.verification.cn.ContractNegotiationProvider02Test.cn_02_02
+
+[2026-11-02T18:18:12.791776942]      [CN:02-02: Verify contract request, consumer terminated]
+[2026-11-02T18:18:12.791872198]      null
+
+[2026-11-02T18:18:12.792094684] 
+   ■ org.eclipse.dataspacetck.dsp.verification.cn.ContractNegotiationProvider02Test.cn_02_03
+
+[2026-11-02T18:18:12.792343808]      [CN:02-03: Verify contract request, provider agreement, consumer terminated]
+[2026-11-02T18:18:12.792445984]      null
+
+[2026-11-02T18:18:12.792572548] 
+   ■ org.eclipse.dataspacetck.dsp.verification.cn.ContractNegotiationProvider02Test.cn_02_04
+
+[2026-11-02T18:18:12.792728042]      [CN:02-04: Verify contract request, offer received, consumer terminated]
+[2026-11-02T18:18:12.792821339]      null
+
+[2026-11-02T18:18:12.792924223] 
+   ■ org.eclipse.dataspacetck.dsp.verification.cn.ContractNegotiationProvider02Test.cn_02_05
+
+[2026-11-02T18:18:12.793072548]      [CN:02-05: Verify contract request, offer received, provider terminated]
+[2026-11-02T18:18:12.793180977]      null
+
+[2026-11-02T18:18:12.795613067] 
+   ■ org.eclipse.dataspacetck.dsp.verification.cn.ContractNegotiationProvider02Test.cn_02_06
+
+[2026-11-02T18:18:12.796601603]      [CN:02-06: Verify contract request, offer received, consumer accepted, provider terminated]
+[2026-11-02T18:18:12.796743632]      null
+
+[2026-11-02T18:18:12.797206572] 
+   ■ org.eclipse.dataspacetck.dsp.verification.cn.ContractNegotiationProvider02Test.cn_02_07
+
+[2026-11-02T18:18:12.797620737]      [CN:02-07: Verify contract request, provider agreement, consumer verified, provider terminated]
+[2026-11-02T18:18:12.797783277]      null
+
+[2026-11-02T18:18:12.798110065] 
+   ■ org.eclipse.dataspacetck.dsp.verification.cn.ContractNegotiationProvider01Test.cn_01_01
+
+[2026-11-02T18:18:12.798309873]      [CN:01-01: Verify contract request, offer received, consumer terminated]
+[2026-11-02T18:18:12.798441439]      null
+
+[2026-11-02T18:18:12.798577215] 
+   ■ org.eclipse.dataspacetck.dsp.verification.cn.ContractNegotiationProvider01Test.cn_01_02
+
+[2026-11-02T18:18:12.798741506]      [CN:01-02: Verify contract request, offer received, consumer counter-offer, provider terminated]
+[2026-11-02T18:18:12.798881451]      null
+
+[2026-11-02T18:18:12.799000593] 
+   ■ org.eclipse.dataspacetck.dsp.verification.cn.ContractNegotiationProvider01Test.cn_01_03
+
+[2026-11-02T18:18:12.799134244]      [CN:01-03: Verify contract request, offer received, consumer accepted, provider agreement, consumer verified, provider finalized]
+[2026-11-02T18:18:12.799265518]      null
+
+[2026-11-02T18:18:12.799360732] 
+   ■ org.eclipse.dataspacetck.dsp.verification.cn.ContractNegotiationProvider01Test.cn_01_04
+
+[2026-11-02T18:18:12.799501677]      [CN:01-04: Verify contract request, provider agreement, consumer verified, provider finalized]
+[2026-11-02T18:18:12.799592931]      null
+
+[2026-11-02T18:18:12.799699234] 
+   ■ org.eclipse.dataspacetck.dsp.verification.tp.TransferProcessConsumer01Test.tp_c_01_01
+
+[2026-11-02T18:18:12.799819836]      [TP_C:01-01: Verify transfer request, provider started, provider terminated]
+[2026-11-02T18:18:12.799898125]      null
+
+[2026-11-02T18:18:12.800274814] 
+   ■ org.eclipse.dataspacetck.dsp.verification.tp.TransferProcessConsumer01Test.tp_c_01_02
+
+[2026-11-02T18:18:12.80040788]      [TP_C:01-02: Verify transfer request, provider started, provider completed]
+[2026-11-02T18:18:12.800632159]      null
+
+[2026-11-02T18:18:12.800778941] 
+   ■ org.eclipse.dataspacetck.dsp.verification.tp.TransferProcessConsumer01Test.tp_c_01_03
+
+[2026-11-02T18:18:12.800909464]      [TP_C:01-03: Verify transfer request, provider started, provider suspended, provider terminated]
+[2026-11-02T18:18:12.801340221]      null
+
+[2026-11-02T18:18:12.80161094] 
+   ■ org.eclipse.dataspacetck.dsp.verification.tp.TransferProcessConsumer01Test.tp_c_01_04
+
+[2026-11-02T18:18:12.801792906]      [TP_C:01-04: Verify transfer request, provider started, provider suspended, provider started, provider completed]
+[2026-11-02T18:18:12.801900668]      null
+
+[2026-11-02T18:18:12.802048909] 
+   ■ org.eclipse.dataspacetck.dsp.verification.tp.TransferProcessConsumer01Test.tp_c_01_05
+
+[2026-11-02T18:18:12.802661423]      [TP_C:01-05: Verify transfer request, provider terminated]
+[2026-11-02T18:18:12.803003386]      null
+
+[2026-11-02T18:18:12.803110731] 
+   ■ org.eclipse.dataspacetck.dsp.verification.cn.ContractNegotiationConsumer03Test.cn_c_03_01
+
+[2026-11-02T18:18:12.803336802]      [CN_C:03-01: Verify contract request, invalid provider finalized]
+[2026-11-02T18:18:12.803526147]      null
+
+[2026-11-02T18:18:12.803648458] 
+   ■ org.eclipse.dataspacetck.dsp.verification.cn.ContractNegotiationConsumer03Test.cn_c_03_02
+
+[2026-11-02T18:18:12.80378265]      [CN_C:03-02: Verify contract request, offer received, invalid provider agreed]
+[2026-11-02T18:18:12.803903585]      null
+
+[2026-11-02T18:18:12.80402227] 
+   ■ org.eclipse.dataspacetck.dsp.verification.cn.ContractNegotiationConsumer03Test.cn_c_03_03
+
+[2026-11-02T18:18:12.804144247]      [CN_C:03-03: Verify contract request, offer received, invalid provider finalized]
+[2026-11-02T18:18:12.804257304]      null
+
+[2026-11-02T18:18:12.80434885] 
+   ■ org.eclipse.dataspacetck.dsp.verification.cn.ContractNegotiationConsumer03Test.cn_c_03_04
+
+[2026-11-02T18:18:12.804466533]      [CN_C:03-04: Verify contract request, offer received, consumer accepted, invalid provider finalized]
+[2026-11-02T18:18:12.804574087]      null
+
+[2026-11-02T18:18:12.804926472] 
+   ■ org.eclipse.dataspacetck.dsp.verification.cn.ContractNegotiationConsumer03Test.cn_c_03_05
+
+[2026-11-02T18:18:12.805132533]      [CN_C:03-05: Verify contract request, offer received, consumer accepted, invalid provider offer]
+[2026-11-02T18:18:12.805227831]      null
+
+[2026-11-02T18:18:12.805365733] 
+   ■ org.eclipse.dataspacetck.dsp.verification.cn.ContractNegotiationConsumer03Test.cn_c_03_06
+
+[2026-11-02T18:18:12.805572544]      [CN_C:03-06: Verify contract request, offer received, consumer accepted, provider agreed, invalid provider finalized]
+[2026-11-02T18:18:12.805731624]      null
+
+[2026-11-02T18:18:12.806056495] 
+   ■ org.eclipse.dataspacetck.dsp.verification.tp.TransferProcessProvider02Test.tp_02_01
+
+[2026-11-02T18:18:12.806293155]      [TP:02-01: Verify transfer request, provider started, consumer terminated]
+[2026-11-02T18:18:12.806395748]      null
+
+[2026-11-02T18:18:12.806565624] 
+   ■ org.eclipse.dataspacetck.dsp.verification.tp.TransferProcessProvider02Test.tp_02_02
+
+[2026-11-02T18:18:12.806750925]      [TP:02-02: Verify transfer request, provider started, consumer completed]
+[2026-11-02T18:18:12.806847807]      null
+
+[2026-11-02T18:18:12.806982041] 
+   ■ org.eclipse.dataspacetck.dsp.verification.tp.TransferProcessProvider02Test.tp_02_03
+
+[2026-11-02T18:18:12.807145789]      [TP:02-03: Verify transfer request, provider started, consumer suspended, consumer terminated]
+[2026-11-02T18:18:12.807253468]      null
+
+[2026-11-02T18:18:12.807389452] 
+   ■ org.eclipse.dataspacetck.dsp.verification.tp.TransferProcessProvider02Test.tp_02_05
+
+[2026-11-02T18:18:12.807540361]      [TP:02-05: Verify transfer request, consumer terminated]
+[2026-11-02T18:18:12.80763891]      null
+
+[2026-11-02T18:18:12.807812581] 
+   ■ org.eclipse.dataspacetck.dsp.verification.tp.TransferProcessProvider01Test.tp_01_01
+
+[2026-11-02T18:18:12.808005302]      [TP:01-01: Verify transfer request, provider started, provider terminated]
+[2026-11-02T18:18:12.808111397]      null
+
+[2026-11-02T18:18:12.8093185] 
+   ■ org.eclipse.dataspacetck.dsp.verification.tp.TransferProcessProvider01Test.tp_01_02
+
+[2026-11-02T18:18:12.809894663]      [TP:01-02: Verify transfer request, provider started, provider completed]
+[2026-11-02T18:18:12.810336675]      null
+
+[2026-11-02T18:18:12.810502133] 
+   ■ org.eclipse.dataspacetck.dsp.verification.tp.TransferProcessProvider01Test.tp_01_03
+
+[2026-11-02T18:18:12.810664214]      [TP:01-03: Verify transfer request, provider started, provider suspended, provider terminated]
+[2026-11-02T18:18:12.81077898]      null
+
+[2026-11-02T18:18:12.810914673] 
+   ■ org.eclipse.dataspacetck.dsp.verification.tp.TransferProcessProvider01Test.tp_01_04
+
+[2026-11-02T18:18:12.811224327]      [TP:01-04: Verify transfer request, provider started, provider suspended, provider started, provider completed]
+[2026-11-02T18:18:12.811352683]      null
+
+[2026-11-02T18:18:12.81149959] 
+   ■ org.eclipse.dataspacetck.dsp.verification.tp.TransferProcessProvider01Test.tp_01_05
+
+[2026-11-02T18:18:12.811665631]      [TP:01-05: Verify transfer request, provider terminated]
+[2026-11-02T18:18:12.811767015]      null
+
+[2026-11-02T18:18:12.812048531] 
+   ■ org.eclipse.dataspacetck.dsp.verification.tp.TransferProcessConsumer03Test.tp_c_03_01
+
+[2026-11-02T18:18:12.81261448]      [TP_C:03-01: Verify transfer request, provider completed]
+[2026-11-02T18:18:12.812895913]      null
+
+[2026-11-02T18:18:12.813122151] 
+   ■ org.eclipse.dataspacetck.dsp.verification.tp.TransferProcessConsumer03Test.tp_c_03_02
+
+[2026-11-02T18:18:12.813312496]      [TP_C:03-02: Verify transfer request, provider suspended]
+[2026-11-02T18:18:12.81347762]      null
+
+[2026-11-02T18:18:12.813683973] 
+   ■ org.eclipse.dataspacetck.dsp.verification.tp.TransferProcessConsumer03Test.tp_c_03_03
+
+[2026-11-02T18:18:12.813894829]      [TP_C:03-03: Verify transfer request, provider started, provider suspended, provider completed]
+[2026-11-02T18:18:12.814047196]      null
+
+[2026-11-02T18:18:12.814184056] 
+   ■ org.eclipse.dataspacetck.dsp.verification.tp.TransferProcessConsumer03Test.tp_c_03_04
+
+[2026-11-02T18:18:12.814356851]      [TP_C:03-04: Verify transfer request, provider started, provider terminated, provider started]
+[2026-11-02T18:18:12.814961362]      null
+
+[2026-11-02T18:18:12.815198105] 
+   ■ org.eclipse.dataspacetck.dsp.verification.tp.TransferProcessConsumer03Test.tp_c_03_05
+
+[2026-11-02T18:18:12.815485332]      [TP_C:03-05: Verify transfer request, provider started, provider terminated, provider suspended]
+[2026-11-02T18:18:12.815624901]      null
+
+[2026-11-02T18:18:12.816023893] 
+   ■ org.eclipse.dataspacetck.dsp.verification.tp.TransferProcessConsumer03Test.tp_c_03_06
+
+[2026-11-02T18:18:12.816661961]      [TP_C:03-06: Verify transfer request, provider started, provider terminated, provider completed]
+[2026-11-02T18:18:12.816929262]      null
+
+[2026-11-02T18:18:12.817133489] 
+   ■ org.eclipse.dataspacetck.dsp.verification.cn.ContractNegotiationConsumer02Test.cn_c_02_01
+
+[2026-11-02T18:18:12.817307576]      [CN_C:02-01: Verify contract request, provider terminated]
+[2026-11-02T18:18:12.817501798]      null
+
+[2026-11-02T18:18:12.817910669] 
+   ■ org.eclipse.dataspacetck.dsp.verification.cn.ContractNegotiationConsumer02Test.cn_c_02_02
+
+[2026-11-02T18:18:12.818177469]      [CN_C:02-02: Verify contract request, consumer terminated]
+[2026-11-02T18:18:12.818255258]      null
+
+[2026-11-02T18:18:12.818344469] 
+   ■ org.eclipse.dataspacetck.dsp.verification.cn.ContractNegotiationConsumer02Test.cn_c_02_03
+
+[2026-11-02T18:18:12.818476868]      [CN_C:02-03: Verify contract request, provider agreement, consumer terminated]
+[2026-11-02T18:18:12.818548654]      null
+
+[2026-11-02T18:18:12.818641201] 
+   ■ org.eclipse.dataspacetck.dsp.verification.cn.ContractNegotiationConsumer02Test.cn_c_02_04
+
+[2026-11-02T18:18:12.818764762]      [CN_C:02-04: Verify contract request, offer received, provider terminated]
+[2026-11-02T18:18:12.818835339]      null
+
+[2026-11-02T18:18:12.81892455] 
+   ■ org.eclipse.dataspacetck.dsp.verification.cn.ContractNegotiationConsumer02Test.cn_c_02_05
+
+[2026-11-02T18:18:12.819062119]      [CN_C:02-05: Verify contract request, offer received, consumer accepted, provider terminated]
+[2026-11-02T18:18:12.81943739]      null
+
+[2026-11-02T18:18:12.819548154] 
+   ■ org.eclipse.dataspacetck.dsp.verification.cn.ContractNegotiationConsumer02Test.cn_c_02_06
+
+[2026-11-02T18:18:12.819666004]      [CN_C:02-06: Verify contract request, provider agreement, consumer verified, provider terminated]
+[2026-11-02T18:18:12.819736998]      null
+
+[2026-11-02T18:18:12.819822041] 
+   ■ org.eclipse.dataspacetck.dsp.verification.cn.ContractNegotiationProvider03Test.cn_03_01
+
+[2026-11-02T18:18:12.819945602]      [CN:03-01: Verify contract request, provider agreement, consumer verified, provider finalized, invalid consumer terminated]
+[2026-11-02T18:18:12.820043068]      null
+
+[2026-11-02T18:18:12.820152623] 
+   ■ org.eclipse.dataspacetck.dsp.verification.cn.ContractNegotiationProvider03Test.cn_03_02
+
+[2026-11-02T18:18:12.820337173]      [CN:03-02: Verify contract request, offer received, invalid consumer verified]
+[2026-11-02T18:18:12.820487081]      null
+
+[2026-11-02T18:18:12.820581962] 
+   ■ org.eclipse.dataspacetck.dsp.verification.cn.ContractNegotiationProvider03Test.cn_03_03
+
+[2026-11-02T18:18:12.820704106]      [CN:03-03: Verify contract request, offer received, consumer accepted, illegal consumer verified]
+[2026-11-02T18:18:12.820775851]      null
+
+[2026-11-02T18:18:12.82088849] 
+   ■ org.eclipse.dataspacetck.dsp.verification.cn.ContractNegotiationProvider03Test.cn_03_04
+
+[2026-11-02T18:18:12.821036481]      [CN:03-04: Verify contract request, offer received, consumer counter-offer (x2), provider terminated]
+[2026-11-02T18:18:12.821115687]      null
+
+
+
+[2026-11-02T18:18:12.8213912] Test run complete
